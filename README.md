@@ -1,9 +1,9 @@
 # ことば雀 単語データ / Kotoba-jan word data
 
-スマホゲーム「ことば雀 - ひらがな麻雀」で使っている単語データです。
+スマホゲーム「[ことば雀 - ひらがな麻雀](https://sakairuh.github.io/kotobajan/)」で使っている単語データです。
 [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project)（Electronic Dictionary Research and Development Group）を加工して作りました。
 
-Word data used in the smartphone game "Kotoba-jan (ことば雀) - Hiragana Mahjong",
+Word data used in the smartphone game ["Kotoba-jan (ことば雀) - Hiragana Mahjong"](https://sakairuh.github.io/kotobajan/),
 adapted from the JMdict dictionary files.
 
 ## 出典 / Attribution
