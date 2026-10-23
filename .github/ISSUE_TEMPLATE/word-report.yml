@@ -1,0 +1,28 @@
+name: 単語の報告 / Word report
+description: 足りない単語・カテゴリの誤り・不適切な語などを知らせる / Report a missing word, a wrong category, or an inappropriate word
+labels: [word-report]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 種類 / Kind
+      options:
+        - 足りない単語（単語にならない） / Missing word
+        - カテゴリの誤り・足りないカテゴリ / Wrong or missing category
+        - 単語にならないはずの語（固有名詞・不適切な語など） / Should not be a word
+        - 表記の札の誤り / Wrong spelling tag
+        - その他 / Other
+    validations:
+      required: true
+  - type: input
+    id: reading
+    attributes:
+      label: 読み（ひらがな） / Reading (hiragana)
+      placeholder: いちご
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 内容 / Details
+      description: どう直すとよいか、理由など / What should change and why
