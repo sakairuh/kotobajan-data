@@ -2,16 +2,13 @@ name: 単語の報告 / Word report
 description: 足りない単語・カテゴリの誤り・不適切な語などを知らせる / Report a missing word, a wrong category, or an inappropriate word
 labels: [word-report]
 body:
-  - type: dropdown
+  # アプリから内容を入れて開けるよう、選択式ではなく文字の欄にしている（URL で事前入力できるのは文字の欄だけ）
+  - type: input
     id: kind
     attributes:
       label: 種類 / Kind
-      options:
-        - 足りない単語（単語にならない） / Missing word
-        - カテゴリの誤り・足りないカテゴリ / Wrong or missing category
-        - 単語にならないはずの語（固有名詞・不適切な語など） / Should not be a word
-        - 表記の札の誤り / Wrong spelling tag
-        - その他 / Other
+      description: 足りない単語 / カテゴリの誤り / 単語にならないはずの語 / 表記の誤り / その他（Missing word / Wrong category / Should not be a word / Wrong spelling / Other）
+      placeholder: 足りない単語
     validations:
       required: true
   - type: input
