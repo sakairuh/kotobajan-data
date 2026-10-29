@@ -12,7 +12,7 @@ This data includes material from the JMdict dictionary files. These files are th
 [Electronic Dictionary Research and Development Group](https://www.edrdg.org/), and are used in conformance
 with the Group's [licence](https://www.edrdg.org/edrdg/licence.html).
 
-- 元にした JMdict の版 / JMdict version: 2026-10-23
+- 元にした JMdict の版 / JMdict version: 2026-10-29
 
 ## 加えた変更 / Changes
 
@@ -35,15 +35,15 @@ Licensed under CC BY-SA 4.0. Credit both JMdict (EDRDG) and this data, and share
 
 | ファイル | 内容 | 件数 |
 | --- | --- | --- |
-| `words.json` | 遊びで単語になる読みの一覧と、元にした JMdict の版 | 4,867語 |
-| `categories.json` | カテゴリの一覧（大分類・小分類）と、語ごとの小分類（1語に3つまで） | 1,494語・38小分類 |
-| `spellings.json` | 語ごとの表記（漢字・カタカナ。札に出す順）と、カテゴリごとに先に出す表記 | 4,844語 |
-| `familiarity.json` | 語ごとの身近さの段（1 が最も身近、3 まで） | 4,867語 |
+| `words.json` | 遊びで単語になる読みの一覧と、元にした JMdict の版 | 5,316語 |
+| `categories.json` | カテゴリの一覧（大分類・小分類）と、語ごとの小分類（1語に3つまで） | 1,545語・38小分類 |
+| `spellings.json` | 語ごとの表記（漢字・カタカナ。札に出す順）と、カテゴリごとに先に出す表記 | 5,293語 |
+| `familiarity.json` | 語ごとの身近さの段（1 が最も身近、3 まで） | 5,316語 |
 
 ### words.json
 
 ```json
-{"jmdict_created": "2026-10-23", "words": ["あい", "あいご", "…"]}
+{"jmdict_created": "2026-10-29", "words": ["あい", "あいご", "…"]}
 ```
 
 ### categories.json
