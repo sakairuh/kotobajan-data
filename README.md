@@ -12,7 +12,7 @@ This data includes material from the JMdict dictionary files. These files are th
 [Electronic Dictionary Research and Development Group](https://www.edrdg.org/), and are used in conformance
 with the Group's [licence](https://www.edrdg.org/edrdg/licence.html).
 
-- 元にした JMdict の版 / JMdict version: 2026-10-29
+- 元にした JMdict の版 / JMdict version: 2026-10-30
 
 ## 加えた変更 / Changes
 
@@ -43,7 +43,7 @@ Licensed under CC BY-SA 4.0. Credit both JMdict (EDRDG) and this data, and share
 ### words.json
 
 ```json
-{"jmdict_created": "2026-10-29", "words": ["あい", "あいご", "…"]}
+{"jmdict_created": "2026-10-30", "words": ["あい", "あいご", "…"]}
 ```
 
 ### categories.json
