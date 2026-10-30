@@ -20,9 +20,10 @@ with the Group's [licence](https://www.edrdg.org/edrdg/licence.html).
 - よく使われる語を基本に、遊びに使う語を選んだ（固有名詞・不適切な語・数詞は除いた）
 - 語にカテゴリ（38の小分類）を付けた
 - 表記を並べる順と、語の身近さの段を加えた
+- 語を組み合わせて、並べ替えパズルの問題集を作った
 
 Extracted 2–3 character hiragana readings of nouns, selected the words used in the game, and added
-categories, spelling order and familiarity levels.
+categories, spelling order and familiarity levels. Also built a set of rearrangement puzzles from the words.
 
 ## ライセンス / License
 
@@ -39,6 +40,7 @@ Licensed under CC BY-SA 4.0. Credit both JMdict (EDRDG) and this data, and share
 | `categories.json` | カテゴリの一覧（大分類・小分類）と、語ごとの小分類（1語に3つまで） | 1,546語・38小分類 |
 | `spellings.json` | 語ごとの表記（漢字・カタカナ。札に出す順）と、カテゴリごとに先に出す表記 | 5,298語 |
 | `familiarity.json` | 語ごとの身近さの段（1 が最も身近、3 まで） | 5,321語 |
+| `puzzles.json` | 並べ替えパズルの問題集。元の5語と、身近な語でできた答え（先頭は5語がすべて同じ小分類になる答え） | 100問 |
 
 ### words.json
 
@@ -68,6 +70,18 @@ Licensed under CC BY-SA 4.0. Credit both JMdict (EDRDG) and this data, and share
 
 ```json
 {"words": {"いちご": 1, "あいご": 3}}
+```
+
+### puzzles.json
+
+元の5語（2・3・3・3・3文字）の牌を並べ替えて、元の語を1つも使わない5語を作るパズル。answers は身近な語でできた答え。
+answers の先頭は、5語がすべて小分類 category の語になる答え。
+
+Rearrange the tiles of five words into five different words. `answers` lists solutions made of familiar words.
+The first one uses five words from the subcategory `category`.
+
+```json
+{"jmdict_created": "2026-10-30", "puzzles": [{"words": ["あゆ", "かぶき", "しゃつ", "ひばり", "らじお"], "answers": [["ゆば", "あぶら", "かつお", "しゃり", "ひじき"]], "category": "食材"}]}
 ```
 
 ## 単語の報告 / Reports
