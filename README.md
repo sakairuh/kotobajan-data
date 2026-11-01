@@ -88,8 +88,10 @@ The first one uses five words from the subcategory `category`.
 
 足りない単語、カテゴリの誤り、単語にならないはずの語（固有名詞・不適切な語など）、表記の誤りに気づいたら、
 [issue](https://github.com/sakairuh/kotobajan-data/issues/new/choose) で知らせてください。データを直して、ゲームの次の更新に入れます。
+今の辞書にある語か・どの分類に入っているかは、[ことば雀の辞書を引く](https://sakairuh.github.io/kotobajan/jisho/)で確かめられます。
 
 Found a missing word, a wrong category, or a word that should not count? Please open an [issue](https://github.com/sakairuh/kotobajan-data/issues/new/choose).
+You can look up a word and its categories on the [Kotoba-jan dictionary search](https://sakairuh.github.io/kotobajan/jisho/).
 
 ## 更新 / Updates
 

@@ -1,0 +1,5 @@
+# issue を作る画面（テンプレートを選ぶ所）に、辞書を引くページへのリンクを出す
+contact_links:
+  - name: ことば雀の辞書を引く / Dictionary search
+    url: https://sakairuh.github.io/kotobajan/jisho/
+    about: 語が今の辞書にあるか・どの分類に入っているかを調べる / Look up whether a word is in the dictionary and its categories

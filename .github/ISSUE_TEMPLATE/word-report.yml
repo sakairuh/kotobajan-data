@@ -2,6 +2,12 @@ name: 単語の報告 / Word report
 description: 足りない単語・カテゴリの誤り・不適切な語などを知らせる / Report a missing word, a wrong category, or an inappropriate word
 labels: [word-report]
 body:
+  # 報告の前に、今の辞書にあるか・どの分類かを確かめられるよう、辞書を引くページへ案内する（この欄は issue の本文には入らない）
+  - type: markdown
+    attributes:
+      value: |
+        報告の前に、[ことば雀の辞書を引く](https://sakairuh.github.io/kotobajan/jisho/)で、その語が今の辞書にあるか・どの分類に入っているかを確かめられます。
+        You can check whether a word is in the current dictionary, and its categories, on the [Kotoba-jan dictionary search](https://sakairuh.github.io/kotobajan/jisho/).
   # アプリから内容を入れて開けるよう、選択式ではなく文字の欄にしている（URL で事前入力できるのは文字の欄だけ）
   - type: input
     id: kind
