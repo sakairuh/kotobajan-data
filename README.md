@@ -36,10 +36,10 @@ Licensed under CC BY-SA 4.0. Credit both JMdict (EDRDG) and this data, and share
 
 | ファイル | 内容 | 件数 |
 | --- | --- | --- |
-| `words.json` | 遊びで単語になる読みの一覧と、元にした JMdict の版 | 5,343語 |
+| `words.json` | 遊びで単語になる読みの一覧と、元にした JMdict の版 | 5,346語 |
 | `categories.json` | カテゴリの一覧（大分類・小分類）と、語ごとの小分類（1語に3つまで） | 1,551語・38小分類 |
-| `spellings.json` | 語ごとの表記（漢字・カタカナ。札に出す順）と、カテゴリごとに先に出す表記 | 5,320語 |
-| `familiarity.json` | 語ごとの身近さの段（1 が最も身近、3 まで） | 5,343語 |
+| `spellings.json` | 語ごとの表記（漢字・カタカナ。札に出す順）と、カテゴリごとに先に出す表記 | 5,323語 |
+| `familiarity.json` | 語ごとの身近さの段（1 が最も身近、3 まで） | 5,346語 |
 | `puzzles.json` | 並べ替えパズルの問題集。元の5語と、身近な語でできた答え（先頭は5語がすべて同じ小分類になる答え） | 100問 |
 
 ### words.json
